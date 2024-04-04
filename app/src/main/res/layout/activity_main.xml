@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/marginmedium"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/textselect"
+        android:textSize="@dimen/textsizelarge" />
+
+    <CheckBox
+        android:id="@+id/checkstart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/checkStart"
+        android:textSize="@dimen/textsizemedium" />
+
+    <LinearLayout
+        android:id="@+id/Linearsub"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/textfavorite"
+            android:textSize="@dimen/textsizelarge" />
+
+        <RadioGroup
+            android:id="@+id/rg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/marginmedium">
+
+            <RadioButton
+                android:id="@+id/radiopuppy"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/radiopuppy"
+                android:layout_margin="@dimen/marginmedium" />
+
+            <RadioButton
+                android:id="@+id/radiokitty"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/radiokitty"
+                android:layout_margin="@dimen/marginmedium" />
+
+            <RadioButton
+                android:id="@+id/radiohamster"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/radiohamster"
+                android:layout_margin="@dimen/marginmedium" />
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/btndone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/btndone" />
+
+        <ImageView
+            android:id="@+id/imagev"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/puppy"
+            android:scaleType="fitXY" />
+    </LinearLayout>
+
+</LinearLayout>

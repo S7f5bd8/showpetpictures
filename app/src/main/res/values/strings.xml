@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">showpetpictures</string>
+    <string name="textselect">선택을 시작하시겠습니까?</string>
+    <string name="checkStart">시작함</string>
+    <string name="textfavorite">좋아하는 애완동물은?</string>
+    <string name="radiopuppy">강아지</string>
+    <string name="radiokitty">고양이</string>
+    <string name="radiohamster">햄스터</string>
+    <string name="btndone">선택 완료</string>
+</resources>
