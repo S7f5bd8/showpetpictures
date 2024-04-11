@@ -14,7 +14,7 @@
         android:text="@string/textselect"
         android:textSize="@dimen/textsizelarge" />
 
-    <CheckBox
+    <Switch
         android:id="@+id/checkstart"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -70,9 +70,23 @@
         <ImageView
             android:id="@+id/imagev"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_height="wrap_content"
             android:src="@drawable/puppy"
             android:scaleType="fitXY" />
+        <Button
+            android:id="@+id/btnFinsh"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/marginmedium"
+            android:text="@string/btnFinish">
+        </Button>
+        <Button
+            android:id="@+id/btnInit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/marginmedium"
+            android:text="@string/btnInit">
+        </Button>
     </LinearLayout>
 
 </LinearLayout>

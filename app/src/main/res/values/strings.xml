@@ -7,4 +7,7 @@
     <string name="radiokitty">고양이</string>
     <string name="radiohamster">햄스터</string>
     <string name="btndone">선택 완료</string>
+
+    <string name="btnFinish">종료</string>
+    <string name="btnInit">처음으로</string>
 </resources>
